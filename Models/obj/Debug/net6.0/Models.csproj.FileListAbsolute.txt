@@ -18,6 +18,7 @@ C:\Users\USER\source\repos\ZucoInvoiceApp\Models\obj\Debug\net6.0\Models.Generat
 C:\Users\USER\source\repos\ZucoInvoiceApp\Models\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
 C:\Users\USER\source\repos\ZucoInvoiceApp\Models\obj\Debug\net6.0\Models.AssemblyInfo.cs
 C:\Users\USER\source\repos\ZucoInvoiceApp\Models\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\ZucoInvoiceApp\Models\obj\Debug\net6.0\Models.sourcelink.json
 C:\Users\USER\source\repos\ZucoInvoiceApp\Models\obj\Debug\net6.0\Models.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\Models\obj\Debug\net6.0\refint\Models.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\Models\obj\Debug\net6.0\Models.pdb

@@ -10,7 +10,10 @@ namespace BusinessLayer.Services
 {
     public interface IInvoiceService
     {
-        Task<bool> CreateInvoice(InvoiceDTO invoicedto);
+        Task<List<Invoice>> SearchInvoice(string query, string userId);
+        Task<List<Invoice>> GetInvoiceByUser(string userId);
+        Task<int> GetInvoiceNumber();
+        Task<Invoice> CreateInvoice(InvoiceDTO invoicedto);
         Task<Invoice> GetInvoiceById(int Id);
         Task<bool> UpdateInvoiceAsync(Invoice invoice);
         Task<bool> DeleteInvoiceAsync(int Id);

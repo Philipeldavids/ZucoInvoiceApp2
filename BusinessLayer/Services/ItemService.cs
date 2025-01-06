@@ -20,10 +20,10 @@ namespace BusinessLayer.Services
             
         }
 
-        public async Task<bool> AddItem(ItemDTO itemDto)
+        public async Task<Item> AddItem(ItemDTO itemDto)
         {
-            await _unitOfWork.ItemRepository.AddItem(itemDto);
-            return true;
+            var result = await _unitOfWork.ItemRepository.AddItem(itemDto);
+            return result ;
         }
 
         public async Task<List<Item>> GetItemsAsync()

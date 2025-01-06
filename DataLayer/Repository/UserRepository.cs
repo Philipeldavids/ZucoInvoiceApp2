@@ -2,7 +2,9 @@
 using DataLayer.DTO;
 using DataLayer.Interface;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -32,10 +34,42 @@ namespace DataLayer.Repository
            
         }
 
-        public async Task<bool> AddUser(User user, string Password)
+        public async Task<List<User>> GetUser()
         {
+            var user = await _userManager.Users.ToListAsync();
+
+            return user;
+        }
+
+        public async Task<User> GetUserByUserName(string UserName)
+        {
+            var user = await _userManager.Users.FirstOrDefaultAsync(x => x.UserName == UserName);
+                
+             return user;
+        }
+
+        public async Task<User> AddCompany(string userId, string text)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                return null;
+            }
             
-            var result = await _userManager.CreateAsync(user, Password);
+            user.Company = text;
+
+            var result = await _userManager.UpdateAsync(user);
+           
+            if (result.Succeeded)
+            {
+                return user;
+            }
+            return null;
+        }
+        public async Task<bool> AddUser(User user)
+        {
+            user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, user.Password);
+            var result = await _userManager.CreateAsync(user);
             if (result.Succeeded)
             {
                 return true;
@@ -60,26 +94,18 @@ namespace DataLayer.Repository
             {
                 return null;
             }
-            User usr = new User();
-            usr.Id = user.Id;
-            usr.FirstName = user.FirstName;
-            usr.LastName = user.LastName;
-            usr.Email = user.Email;
-            usr.PhoneNumber = user.PhoneNumber;
-            usr.UserName = user.UserName;
-            usr.ImageUrl = user.ImageUrl;
+           
 
-            return usr;
+            return user;
         }
 
         public async Task<bool> Update(UserRequestDTO userRequestDTO, string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
             if (user != null) {
-                user.UserName = userRequestDTO.UserName;
-                user.PhoneNumber = userRequestDTO.Phone;
-                user.FirstName = userRequestDTO.FirstName;
-                user.LastName = userRequestDTO.LastName;
+                user.UserName = userRequestDTO.Email;
+                user.PhoneNumber = userRequestDTO.PhoneNumber;
+                user.Email = userRequestDTO.Email;
 
                 var result = await _userManager.UpdateAsync(user);
                 if (result.Succeeded)
@@ -128,9 +154,9 @@ namespace DataLayer.Repository
                 {
                    UserResponseDTO response = new UserResponseDTO();
                     response.Id = user.Id;
-                    response.FirstName = user.FirstName;
-                    response.LastName = user.LastName;
-                    response.ImageUrl = user.ImageUrl;  
+                    response.Email = user.Email;
+                    response.ImageUrl = user.ImageUrl;
+                    response.Company = user.Company;
                     response.PhoneNumber = user.PhoneNumber;    
                     response.Token = _tokenGenerator.GenerateToken(user);
                     return response;

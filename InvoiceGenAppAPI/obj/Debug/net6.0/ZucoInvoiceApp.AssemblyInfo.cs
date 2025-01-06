@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("4b8ec65b-879f-4820-bdd5-cc2c7f46fe99")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZucoInvoiceApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62477297f93413b6cc61905259de8878c79952f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZucoInvoiceApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZucoInvoiceApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,12 +18,40 @@ namespace BusinessLayer.Services
             _userRepository = userRepository;
         }
 
-        public async Task<bool> AddUserAsync(User user, string Password)
+        public async Task<List<User>> GetUser()
         {
-            var result = await _userRepository.AddUser(user, Password);
+            var user = await _userRepository.GetUser();
+            return user;
+        }
+        public async Task<bool> AddUserAsync(UserRequestDTO user)
+        {
+            bool result = false;
+            
+            if(user.Password == user.ConfirmPassword)
+            {
+                User usr = new User();
+                usr.Password = user.Password;
+                usr.PhoneNumber = user.PhoneNumber;
+                usr.Email = user.Email;
+                usr.UserName = user.Email;
+
+                result = await _userRepository.AddUser(usr);                
+            }
             return result;
         }
 
+       
+        public async Task<User> AddCompany(string userid, string text)
+        {
+            var result = await _userRepository.AddCompany(userid, text);
+
+            return result;
+        }
+        public async Task<User> GetUserByUserName (string UserName)
+        {
+            var result = await _userRepository.GetUserByUserName(UserName);
+            return result;
+        }
         public async Task<User> GetUserById(string userId)
         {
             var result = await _userRepository.GetUserById(userId);

@@ -11,10 +11,15 @@ namespace DataLayer.Interface
 {
     public interface IUserRepository
     {
-        Task<bool> AddUser(User user, string Password);
+        Task<User> AddCompany(string userId, string text);
+        
+        Task<User> GetUserByUserName(string UserName);
+        Task<bool> AddUser(User user);
         Task<User> GetUserById(string userId);
         Task<UserResponseDTO> Login(string email, string password);
         Task<bool> Update(UserRequestDTO userRequestDTO, string userId);
         Task<bool> DeleteUser(string userId);
+
+        Task<List<User>> GetUser();
     }
 }

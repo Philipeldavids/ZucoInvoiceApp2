@@ -9,6 +9,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using static System.Formats.Asn1.AsnWriter;
 
 namespace DataLayer.Repository
@@ -22,11 +23,29 @@ namespace DataLayer.Repository
         }
 
 
+        public async Task<List<Invoice>> SearchInvoice(string query, string userId)
+        {
+            var filteredInvoices = _applicationDbContext.Invoices
+            .Where(invoice => invoice.UserId == userId && (
+                   Convert.ToString(invoice.InvoiceNumber).Contains(query.ToLower()) ||
+                   invoice.Client.ToLower().StartsWith(query.ToLower())))
+               .ToList();
+
+            return filteredInvoices;
+        }
+        public async Task<List<Invoice>> GetInvoiceByUser(string userId)
+        {
+            var invoice = _applicationDbContext.Invoices.Where(x => x.UserId == userId).ToList();
+
+            return invoice;
+        }
+    
         public async Task<Invoice> GetInvoiceByIdAsync(int Id)
         {
-            var invoice = await _applicationDbContext.Invoices
+            var invoice = _applicationDbContext.Invoices
                          .Where(x => x.InvoiceID == Id)
-                         .FirstOrDefaultAsync();
+                         .Include(x => x.Items)
+                         .FirstOrDefault();
 
             return invoice;
         }
@@ -38,12 +57,8 @@ namespace DataLayer.Repository
                        select new Invoice()
                        {
                            InvoiceID = item.InvoiceID,
-                           CustomerName = item.CustomerName,
-                           CustomerEmail = item.CustomerEmail,
-                           CustomerPhoneNumber = item.CustomerPhoneNumber,
-                           CustomerAddress = item.CustomerAddress,
-                           CreatedDate = item.CreatedDate,
-                           Status = item.Status,
+                           Client = item.Client,
+                           CreatedDate = item.CreatedDate,                          
                            Tax = item.Tax,
                            FootNote = item.FootNote,
                            TotalPrice = item.TotalPrice,
@@ -51,26 +66,10 @@ namespace DataLayer.Repository
                        };
             return data.ToList();
         }
-        public async Task<bool> CreateInvoice(InvoiceDTO invoicedto)
+        public async Task<bool> CreateInvoice(Invoice invoice)
         {
-            Invoice invoice = new Invoice();
-
-
-            invoice.CustomerName = invoicedto.CustomerName;
-            invoice.CustomerEmail = invoicedto.CustomerEmail;
-            invoice.CustomerPhoneNumber = invoicedto.CustomerPhoneNumber;
-            invoice.CustomerAddress = invoicedto.CustomerAddress;
-            invoice.CreatedDate = invoicedto.CreatedDate;
-            invoice.Status = invoicedto.Status;
-            invoice.TotalPrice = invoicedto.Items.Sum(item => item.Amount);
-            invoice.Items = invoicedto.Items;
-            invoice.FootNote = invoicedto.FootNote;
-            invoice.Tax = invoicedto.Tax;
-               
-            
-
-            await _applicationDbContext.AddAsync(invoice);
-            var result = await _applicationDbContext.SaveChangesAsync();
+            _applicationDbContext.Add(invoice);
+            var result = _applicationDbContext.SaveChanges();
             
             return result > 0;
         }
@@ -98,5 +97,19 @@ namespace DataLayer.Repository
             return result > 0;
         }
 
+
+        public async Task<int> GetInvoiceNumber()
+        {
+            var invoiceNum = 10000;
+            var invoiceNo =  _applicationDbContext.Invoices.OrderBy(x => x.InvoiceNumber).Select(x => x.InvoiceNumber).LastOrDefault();
+
+            if(invoiceNo < invoiceNum)
+            {
+                return invoiceNum;
+            }
+            return invoiceNo;
+        }
     }
+
+
 }

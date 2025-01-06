@@ -13,19 +13,32 @@ namespace DataLayer.Database
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
+            
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Invoice>()
                 .HasKey(e => e.InvoiceID);
-            
+       
+         
+            modelBuilder.Entity<Contact>()
+            .HasOne(c => c.User)
+            .WithMany(u => u.Contacts)
+            .HasForeignKey(c => c.UserId)
+            .IsRequired();
+
+            modelBuilder.Entity<Contact>()
+                .HasKey(e => e.ContactId);
+                
             modelBuilder.Entity<Invoice>()
                 .Property(e => e.TotalPrice)
                 .IsRequired()
                 .HasColumnType("decimal(18,2)");
 
+            modelBuilder.Entity<Item>()
+                .HasKey(d => d.Id);
+                
             modelBuilder.Entity<Item>()
                 .Property(e => e.UnitPrice)
                 .IsRequired()
@@ -39,5 +52,7 @@ namespace DataLayer.Database
         }
         public DbSet<Invoice> Invoices { get; set; }
         public DbSet<Item> Items { get; set; }
+
+        public DbSet<Contact> Contacts { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace DataLayer.Interface
 {
     public interface IItemRepository
     {
-        Task<bool> AddItem(ItemDTO itemDto);
+        Task<Item> AddItem(ItemDTO itemDto);
         Task<List<Item>> GetItems();
         Task<bool> UpdateItem(Item item);
     }

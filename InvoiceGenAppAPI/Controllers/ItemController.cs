@@ -8,7 +8,7 @@ namespace InvoiceGenAppAPI.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class ItemController : ControllerBase
     {
         private readonly IItemService _itemService;
@@ -19,13 +19,21 @@ namespace InvoiceGenAppAPI.Controllers
         [HttpGet("GetItem")]
         public async Task<IActionResult> GetItem()
         {
-            var items = await _itemService.GetItemsAsync();
-            return Ok(items);
+            try
+            {
+                var items = await _itemService.GetItemsAsync();
+                return Ok(items);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+           
         }
 
         [HttpPost("Add")]
 
-        public async Task<IActionResult> Add(ItemDTO itemdto)
+        public async Task<IActionResult> Add([FromBody]ItemDTO itemdto)
         {
             var result = await _itemService.AddItem(itemdto);
 

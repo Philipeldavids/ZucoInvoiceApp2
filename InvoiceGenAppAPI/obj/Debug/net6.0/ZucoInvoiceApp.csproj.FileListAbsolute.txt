@@ -5,6 +5,7 @@ C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Zuco
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\ZucoInvoiceApp.runtimeconfig.json
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\ZucoInvoiceApp.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\ZucoInvoiceApp.pdb
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\CloudinaryDotNet.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Humanizer.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -15,6 +16,7 @@ C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Micr
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
@@ -29,6 +31,11 @@ C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Micr
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Npgsql.dll
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\SixLabors.ImageSharp.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -65,15 +72,16 @@ C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\Zuco
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\ZucoInvoiceApp.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\ZucoInvoiceApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\ZucoInvoiceApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\ZucoInvoiceApp.sourcelink.json
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\staticwebassets\msbuild.ZucoInvoiceApp.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.ZucoInvoiceApp.props
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ZucoInvoiceApp.props
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ZucoInvoiceApp.props
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\scopedcss\bundle\ZucoInvoiceApp.styles.css
-C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\ZucoInvoiceApp.csproj.CopyComplete
+C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\ZucoInvo.D1BC04A7.Up2Date
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\ZucoInvoiceApp.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\refint\ZucoInvoiceApp.dll
 C:\Users\USER\source\repos\ZucoInvoiceApp\InvoiceGenAppAPI\obj\Debug\net6.0\ZucoInvoiceApp.pdb

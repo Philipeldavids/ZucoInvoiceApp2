@@ -10,7 +10,7 @@ namespace BusinessLayer.Services
 {
     public interface IItemService
     {
-        Task<bool> AddItem(ItemDTO itemDto);
+        Task<Item> AddItem(ItemDTO itemDto);
         Task<List<Item>> GetItemsAsync();
     }
 }

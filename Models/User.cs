@@ -11,14 +11,19 @@ namespace Models
     public class User : IdentityUser
     {
         [Key]
-        [Required]
-        public string Id { get; set; } = Guid.NewGuid().ToString();
-        public string FirstName { get; set; }
-        public string LastName { get; set; }       
-        public DateTime CreatedAt { get; set; }
-        public string ImageUrl { get; set; }
-
         
+        public string Id { get; set; } = Guid.NewGuid().ToString();
+
+        [Required]
+        public string Password { get; set; }
+       
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public string ImageUrl { get; set; } = string.Empty;
+
+        public string Company { get; set; } = string.Empty;
+
+        public ICollection<Contact> Contacts { get; set; }
+
 
     }
 }

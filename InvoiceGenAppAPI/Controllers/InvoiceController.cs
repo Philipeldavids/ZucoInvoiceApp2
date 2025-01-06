@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Models;
 using Models.DTO;
 
@@ -9,7 +10,7 @@ namespace InvoiceGenAppAPI.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class InvoiceController : ControllerBase
     {
         private readonly IInvoiceService _invoiceService;
@@ -17,7 +18,58 @@ namespace InvoiceGenAppAPI.Controllers
         {
             _invoiceService = invoiceService;
         }
-        [HttpGet("GetInvoiceById")]
+
+        
+
+        [HttpGet("GetInvoiceNumber")]
+
+        public async Task<IActionResult> GetInvoiceNumber()
+        {
+            try
+            {
+                var result = await _invoiceService.GetInvoiceNumber();
+                return Ok(result);
+            }
+            catch(Exception ex) { 
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("search/{userId}/{query}")]
+        public async Task<IActionResult> SearchInvoices(string query, string userId)
+        {
+            
+
+            try
+            {
+                var filteredInvoices = await _invoiceService.SearchInvoice(query, userId);
+
+                return Ok(filteredInvoices);
+
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }     
+
+        }
+
+        [HttpGet("GetInvoiceByUser/{userId}")]
+
+        public async Task<IActionResult> GetInvoiceByUser(string userId)
+        {
+            try
+            {
+                var invoice = await _invoiceService.GetInvoiceByUser(userId);
+                return Ok(invoice);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("GetInvoiceById/{Id}")]
         public async Task<IActionResult> GetInvoiceByID(int Id)
         {
             try
@@ -50,7 +102,7 @@ namespace InvoiceGenAppAPI.Controllers
 
         [HttpPost("Create")]
 
-        public async Task<IActionResult> Create(InvoiceDTO invoicedto)
+        public async Task<IActionResult> Create([FromForm]InvoiceDTO invoicedto)
         {
             try
             {

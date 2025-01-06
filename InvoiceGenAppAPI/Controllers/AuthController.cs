@@ -1,7 +1,9 @@
 ﻿using BusinessLayer.Services;
+using DataLayer.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models;
+using Models.DTO;
 
 namespace InvoiceGenAppAPI.Controllers
 {
@@ -17,20 +19,24 @@ namespace InvoiceGenAppAPI.Controllers
 
         }
 
-        [HttpGet("Login")]
-        public async Task<IActionResult> Login(string email, string password)
+        [HttpPost("Login")]
+            
+        public async Task<IActionResult> Login([FromBody]LoginRequestDTO loginRequest)
         {
-            var result = await _userService.Login(email, password);
-
-            return Ok(result);
+            var result = await _userService.Login(loginRequest.email, loginRequest.password);
+            if(result != null)
+            {
+                return Ok(result);
+            }
+            return BadRequest("Incorrect Password or UserName");
 
         }
 
         [HttpPost("AddUser")]
 
-        public async Task<IActionResult> AddUser(User user, string Password)
+        public async Task<IActionResult> AddUser([FromBody]UserRequestDTO user)
         {
-            var result = await _userService.AddUserAsync(user, Password);
+            var result = await _userService.AddUserAsync(user);
 
             return Ok(result);
         }

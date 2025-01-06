@@ -1,4 +1,5 @@
 using BusinessLayer.Services;
+using CloudinaryDotNet;
 using DataLayer;
 using DataLayer.Database;
 using DataLayer.Interface;
@@ -54,23 +55,49 @@ builder.Services.AddSwaggerGen(c =>
 
         });
 });
-    
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")
-    , getAssembly => getAssembly.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
-    , ServiceLifetime.Transient);
-    
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:3000")
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+
+//options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")
+//    , getAssembly => getAssembly.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
+//    , ServiceLifetime.Transient);
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 builder.Services.AddScoped<IInvoiceRepository, InvoiceRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
+builder.Services.AddScoped<IContactService, ContactService>();
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddScoped<IItemRepository, ItemRepository>();
 builder.Services.AddScoped<IItemService, ItemService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITokenGenerator, TokenGenerator>();
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
 
+
+var cloudinarySettings = builder.Configuration.GetSection("Cloudinary").Get<CloudinarySettings>();
+
+// Initialize Cloudinary with the settings
+var cloudinary = new Cloudinary(new Account(
+    cloudinarySettings.CloudName,
+    cloudinarySettings.ApiKey,
+    cloudinarySettings.ApiSecret
+));
+
+builder.Services.AddSingleton(cloudinary);
 builder.Services.AddIdentity<User, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
@@ -114,6 +141,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowAll");
 app.UseAuthentication();
 
 app.UseAuthorization();

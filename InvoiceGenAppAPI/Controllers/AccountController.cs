@@ -11,7 +11,7 @@ namespace InvoiceGenAppAPI.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    [Authorize]
+    
     
     public class AccountController : ControllerBase
     {
@@ -23,7 +23,24 @@ namespace InvoiceGenAppAPI.Controllers
             
         }
 
-       
+        [HttpPut("AddCompany")]
+
+        public async Task<IActionResult> AddCompany([FromBody]CompanyDTO company)
+        {
+            try
+            {
+                var result =  await _userService.AddCompany(company.UserId, company.Text);
+
+                if(result != null)
+                {
+                    return Ok(result);
+                }
+                return BadRequest();
+            }
+            catch(Exception ex) { 
+             return BadRequest(ex.Message);
+            }
+        }
        
         
         [HttpGet("GetUserById")]
@@ -35,6 +52,20 @@ namespace InvoiceGenAppAPI.Controllers
                 return Ok(result);
             }
             catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("GetUserByUserName")]
+        public async Task<IActionResult> GetUserByUserName(string UserName)
+        {
+            try
+            {
+                var result = await _userService.GetUserByUserName(UserName);
+                return Ok(result);
+            }
+            catch(Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -61,6 +92,22 @@ namespace InvoiceGenAppAPI.Controllers
             try
             {
                 var result = await _userService.DeleteUser(userId);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("GetallUser")]
+
+        public async Task<IActionResult> GellAllUser()
+        {
+            try
+            {
+                var result = await _userService.GetUser();
                 return Ok(result);
             }
             catch (Exception ex)

@@ -19,25 +19,25 @@ namespace DataLayer.Repository
             _applicationDbContext = applicationDbContext;
         }
 
-        public async Task<bool> AddItem(ItemDTO itemDto)
+        public async Task<Item> AddItem(ItemDTO itemDto)
         {
             if (itemDto == null)
             {
-                return false;
+                return null;
             }
             Item item = new Item()
             {
-                Name = itemDto.Name,
+                
                 Description = itemDto.Description,
                 Quantity = itemDto.Quantity,
                 Discount = itemDto.Discount,
                 UnitPrice = itemDto.UnitPrice,
-                Amount = itemDto.Quantity * itemDto.UnitPrice
+                Amount = itemDto.Amount
             };
             _applicationDbContext.Items.Add(item);
-            var result = await _applicationDbContext.SaveChangesAsync();
+            await _applicationDbContext.SaveChangesAsync();
 
-            return result > 0;
+            return item;
         }
         public async Task<List<Item>> GetItems()
         {
@@ -45,8 +45,7 @@ namespace DataLayer.Repository
 
             var data = from item in _applicationDbContext.Items
                        select new Item()
-                       {
-                           Name = item.Name,
+                       {   Id = item.Id,                     
                            Description = item.Description,
                            Quantity = item.Quantity,
                            Discount = item.Discount,
@@ -58,7 +57,7 @@ namespace DataLayer.Repository
 
         public async Task<bool> UpdateItem(Item item)
         {
-            var itm = await _applicationDbContext.Items.FirstOrDefaultAsync(itm => itm.ItemID == item.ItemID);
+            var itm = await _applicationDbContext.Items.FirstOrDefaultAsync(itm => itm.Id == item.Id);
             if (itm == null)
             {
                 return false;
