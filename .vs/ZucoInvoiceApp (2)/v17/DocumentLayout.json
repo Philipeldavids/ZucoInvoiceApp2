@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\invoicegenappapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\invoicegenappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,23 +23,23 @@
       "RelativeMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\datalayer\\migrations\\20250106140355_initiala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\datalayer\\migrations\\20250106140355_initiala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\migrations\\20250106140355_initiala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\invoicegenappapi\\zucoinvoiceapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\zucoinvoiceapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\zucoinvoiceapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -43,11 +47,7 @@
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\invoicegenappapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,11 +55,11 @@
       "RelativeMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\datalayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\datalayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\invoicegenappapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,7 +67,7 @@
       "RelativeMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\models\\dto\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\models\\dto\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|solutionrelative:models\\dto\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -79,7 +79,7 @@
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\interface\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\datalayer\\repository\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\datalayer\\repository\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repository\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -95,7 +95,7 @@
       "RelativeMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\businesslayer\\services\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\businesslayer\\services\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -115,7 +115,7 @@
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repository\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\invoicegenappapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -127,11 +127,11 @@
       "RelativeMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\datalayer\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\datalayer\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\datalayer\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\datalayer\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -190,34 +190,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Dockerfile",
-              "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Dockerfile",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Dockerfile",
-              "RelativeToolTip": "InvoiceGenAppAPI\\Dockerfile",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABAAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-06T14:38:53.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250106140355_initialA.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Migrations\\20250106140355_initialA.cs",
-              "RelativeDocumentMoniker": "DataLayer\\Migrations\\20250106140355_initialA.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Migrations\\20250106140355_initialA.cs",
-              "RelativeToolTip": "DataLayer\\Migrations\\20250106140355_initialA.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAB7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:03:58.903Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -228,7 +202,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Dockerfile",
+              "RelativeToolTip": "InvoiceGenAppAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-06T14:38:53.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "Models\\Contact.cs",
@@ -236,12 +223,11 @@
               "RelativeToolTip": "Models\\Contact.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAAAsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T11:49:51.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T11:49:51.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "Models\\Invoice.cs",
@@ -249,12 +235,11 @@
               "RelativeToolTip": "Models\\Invoice.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T18:57:56.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T18:57:56.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Models\\Item.cs",
@@ -262,12 +247,11 @@
               "RelativeToolTip": "Models\\Item.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:09:59.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T15:09:59.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Status.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\Models\\Status.cs",
               "RelativeDocumentMoniker": "Models\\Status.cs",
@@ -275,12 +259,11 @@
               "RelativeToolTip": "Models\\Status.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T11:47:50.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T11:47:50.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -288,25 +271,49 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAuwBAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-10-26T16:35:40.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-10-26T16:35:40.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\appsettings.json",
               "RelativeDocumentMoniker": "InvoiceGenAppAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\appsettings.json",
-              "RelativeToolTip": "InvoiceGenAppAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\appsettings.json*",
+              "RelativeToolTip": "InvoiceGenAppAPI\\appsettings.json*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-06T13:38:35.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Program.cs",
+              "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Program.cs",
+              "RelativeToolTip": "InvoiceGenAppAPI\\Program.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAIsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-30T14:11:54.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "20250106140355_initialA.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Migrations\\20250106140355_initialA.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Migrations\\20250106140355_initialA.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Migrations\\20250106140355_initialA.cs",
+              "RelativeToolTip": "DataLayer\\Migrations\\20250106140355_initialA.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:03:58.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ZucoInvoiceApp.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\ZucoInvoiceApp.csproj",
               "RelativeDocumentMoniker": "InvoiceGenAppAPI\\ZucoInvoiceApp.csproj",
@@ -314,12 +321,11 @@
               "RelativeToolTip": "InvoiceGenAppAPI\\ZucoInvoiceApp.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2023-10-11T12:05:56.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-10-11T12:05:56.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Interface\\IUserRepository.cs",
@@ -327,8 +333,7 @@
               "RelativeToolTip": "DataLayer\\Interface\\IUserRepository.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAAA0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-02T12:46:00.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-11-02T12:46:00.909Z"
             },
             {
               "$type": "Document",
@@ -340,8 +345,7 @@
               "RelativeToolTip": "InvoiceGenAppAPI\\Controllers\\AuthController.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAAABgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T11:30:18.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T11:30:18.8Z"
             },
             {
               "$type": "Document",
@@ -353,8 +357,7 @@
               "RelativeToolTip": "Models\\DTO\\InvoiceDTO.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T11:11:23.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T11:11:23.931Z"
             },
             {
               "$type": "Document",
@@ -366,8 +369,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\UserService.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAAAD8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-10-26T14:14:19.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-10-26T14:14:19.582Z"
             },
             {
               "$type": "Document",
@@ -379,21 +381,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\UserRepository.cs",
               "ViewState": "AQIAAJMAAAAAAAAAAAA/wKUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T11:30:18.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Program.cs",
-              "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Program.cs",
-              "RelativeToolTip": "InvoiceGenAppAPI\\Program.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-08-30T14:11:54.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T11:30:18.528Z"
             },
             {
               "$type": "Document",
@@ -405,8 +393,7 @@
               "RelativeToolTip": "DataLayer\\Interface\\IInvoiceRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T08:06:48.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T08:06:48.553Z"
             },
             {
               "$type": "Document",
@@ -418,8 +405,7 @@
               "RelativeToolTip": "InvoiceGenAppAPI\\Controllers\\InvoiceController.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAuwCgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T05:32:17.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T05:32:17.697Z"
             },
             {
               "$type": "Document",
@@ -431,8 +417,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\IInvoiceService.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAAAoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T08:06:26.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T08:06:26.56Z"
             },
             {
               "$type": "Document",
@@ -444,8 +429,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\InvoiceRepository.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAA1wBkAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T12:32:25.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T12:32:25.927Z"
             },
             {
               "$type": "Document",
@@ -457,8 +441,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\InvoiceService.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAQwD8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T08:06:27.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T08:06:27.951Z"
             },
             {
               "$type": "Document",
@@ -470,8 +453,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\ContactRepository.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAABcAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T10:22:45.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T10:22:45.274Z"
             },
             {
               "$type": "Document",
@@ -483,8 +465,7 @@
               "RelativeToolTip": "InvoiceGenAppAPI\\Controllers\\AccountController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAYwB8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:57:51.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T08:57:51.545Z"
             },
             {
               "$type": "Document",
@@ -496,8 +477,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\IUserService.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAAAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T10:30:10.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T10:30:10.782Z"
             },
             {
               "$type": "Document",
@@ -509,8 +489,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\CloudinaryService.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T05:26:44.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T05:26:44.574Z"
             },
             {
               "$type": "Document",
@@ -522,8 +501,7 @@
               "RelativeToolTip": "DataLayer\\Database\\ApplicationDbContext.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAjwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T19:41:38.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T19:41:38.154Z"
             },
             {
               "$type": "Document",
@@ -535,8 +513,7 @@
               "RelativeToolTip": "DataLayer\\Migrations\\20250103150618_initialh.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:06:21.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T15:06:21.104Z"
             },
             {
               "$type": "Document",
@@ -548,8 +525,7 @@
               "RelativeToolTip": "DataLayer\\Migrations\\20250103124120_initialg.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T12:41:20.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T12:41:20.676Z"
             },
             {
               "$type": "Document",
@@ -561,8 +537,7 @@
               "RelativeToolTip": "InvoiceGenAppAPI\\Controllers\\ContactController.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T07:57:35.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T07:57:35.059Z"
             },
             {
               "$type": "Document",
@@ -574,8 +549,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\IContactRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:23:11.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T08:23:11.994Z"
             },
             {
               "$type": "Document",
@@ -587,8 +561,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\IContactService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:28:39.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T08:28:39.446Z"
             },
             {
               "$type": "Document",
@@ -600,8 +573,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\ContactService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAAsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:24:15.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T08:24:15.672Z"
             },
             {
               "$type": "Document",
@@ -613,8 +585,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAkwA8AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T09:51:40.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T09:51:40.331Z"
             },
             {
               "$type": "Document",
@@ -626,8 +597,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\UnitOfWork.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAAAB0AAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T09:50:26.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T09:50:26.318Z"
             },
             {
               "$type": "Document",
@@ -639,8 +609,7 @@
               "RelativeToolTip": "DataLayer\\Migrations\\20250102122910_InitialF.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T12:29:10.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T12:29:10.567Z"
             },
             {
               "$type": "Document",
@@ -652,8 +621,7 @@
               "RelativeToolTip": "DataLayer\\DTO\\ContactDTO.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAIBJwBAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:40:13.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T08:40:13.877Z"
             },
             {
               "$type": "Document",
@@ -665,8 +633,7 @@
               "RelativeToolTip": "InvoiceGenAppAPI\\Controllers\\ItemController.cs",
               "ViewState": "AQIAABwAAAAAAAAAAIBJwCUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T14:29:51.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T14:29:51.915Z"
             },
             {
               "$type": "Document",
@@ -678,8 +645,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\ItemService.cs",
               "ViewState": "AQIAABIAAAAAAAAAAIBJwBwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T09:48:32.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T09:48:32.426Z"
             },
             {
               "$type": "Document",
@@ -691,8 +657,7 @@
               "RelativeToolTip": "Models\\DTO\\UserRequestDTO.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAIBJwAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T02:08:00.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T02:08:00.888Z"
             },
             {
               "$type": "Document",
@@ -704,8 +669,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\IItemService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T09:49:45.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T09:49:45.444Z"
             },
             {
               "$type": "Document",
@@ -717,8 +681,7 @@
               "RelativeToolTip": "DataLayer\\Interface\\IItemRepository.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAIBJwAoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T17:23:34.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T17:23:34.489Z"
             },
             {
               "$type": "Document",
@@ -730,8 +693,7 @@
               "RelativeToolTip": "Models\\Models.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2023-08-30T14:09:10.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-08-30T14:09:10.342Z"
             },
             {
               "$type": "Document",
@@ -743,8 +705,7 @@
               "RelativeToolTip": "DataLayer\\Interface\\ITokenGenerator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-10-11T12:09:34.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-10-11T12:09:34.38Z"
             },
             {
               "$type": "Document",
@@ -756,8 +717,7 @@
               "RelativeToolTip": "DataLayer\\TokenGenerator.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAuwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-10-11T12:09:51.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-10-11T12:09:51.768Z"
             },
             {
               "$type": "Document",
@@ -769,8 +729,7 @@
               "RelativeToolTip": "DataLayer\\DTO\\LoginRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T06:24:20.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-05T06:24:20.792Z"
             },
             {
               "$type": "Document",
@@ -782,8 +741,7 @@
               "RelativeToolTip": "DataLayer\\Migrations\\20230731104908_MOdelUpdate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-07-31T10:49:09.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-07-31T10:49:09.474Z"
             }
           ]
         }

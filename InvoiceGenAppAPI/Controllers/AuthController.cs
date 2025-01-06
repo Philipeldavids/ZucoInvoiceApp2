@@ -28,7 +28,7 @@ namespace InvoiceGenAppAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest("Incorrect Password or UserName");
+            return StatusCode(500);
 
         }
 
