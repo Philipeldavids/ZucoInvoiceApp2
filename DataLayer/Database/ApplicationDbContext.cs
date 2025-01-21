@@ -47,6 +47,8 @@ namespace DataLayer.Database
                 .Property(e => e.Amount)
                 .IsRequired()
                 .HasColumnType("decimal(18,2)");
+            modelBuilder.Entity<Subscription>()
+                .HasKey(e => e.Id);
 
             base.OnModelCreating(modelBuilder);
         }
@@ -54,5 +56,7 @@ namespace DataLayer.Database
         public DbSet<Item> Items { get; set; }
 
         public DbSet<Contact> Contacts { get; set; }
+
+        public DbSet<Subscription> Subscriptions { get; set; }
     }
 }

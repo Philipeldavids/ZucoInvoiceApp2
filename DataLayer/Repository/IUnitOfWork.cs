@@ -14,5 +14,7 @@ namespace DataLayer.Repository
         public IItemRepository ItemRepository { get; }  
 
         public IContactRepository ContactRepository { get; }
+
+        public ISubscriptionRepository SubscriptionRepository { get; }
     }
 }
