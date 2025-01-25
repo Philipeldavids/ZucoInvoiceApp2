@@ -28,7 +28,7 @@ namespace InvoiceGenAppAPI.Controllers
             {
                 return Ok(result);
             }
-            return StatusCode(500);
+            return BadRequest("User does not Exist, Please use the SignUp Link");
 
         }
 

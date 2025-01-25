@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\invoicegenappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\invoicegenappapi\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\businesslayer\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\businesslayer\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\businesslayer\\services\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\businesslayer\\services\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A05D5C2-E364-4D3F-965A-3D319AC7B3B3}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,11 +31,11 @@
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\datalayer\\interface\\isubscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\datalayer\\interface\\isubscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\interface\\isubscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\datalayer\\repository\\subscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\datalayer\\repository\\subscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repository\\subscriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,7 +51,7 @@
       "RelativeMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|c:\\users\\user\\source\\repos\\zucoinvoiceapp\\invoicegenappapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -61,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\datalayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A93AE3EF-28AE-4A88-89A9-AEC060FE1787}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\invoicegenappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6D0EC1-A94A-488D-9982-BE4739F72542}|InvoiceGenAppAPI\\ZucoInvoiceApp.csproj|solutionrelative:invoicegenappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB85679A-1155-4B49-8505-11AB51165DDA}|Models\\Models.csproj|C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -226,20 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubscriptionController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Controllers\\SubscriptionController.cs",
-              "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Controllers\\SubscriptionController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Controllers\\SubscriptionController.cs",
-              "RelativeToolTip": "InvoiceGenAppAPI\\Controllers\\SubscriptionController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAABkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T11:01:58.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ISubscriptionService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\BusinessLayer\\Services\\ISubscriptionService.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\ISubscriptionService.cs",
@@ -247,12 +234,11 @@
               "RelativeToolTip": "BusinessLayer\\Services\\ISubscriptionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T11:00:17.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T11:00:17.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SubscriptionService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\BusinessLayer\\Services\\SubscriptionService.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\SubscriptionService.cs",
@@ -260,12 +246,11 @@
               "RelativeToolTip": "BusinessLayer\\Services\\SubscriptionService.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAAA8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T10:52:17.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T10:52:17.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ISubscriptionRepository.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Interface\\ISubscriptionRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Interface\\ISubscriptionRepository.cs",
@@ -273,25 +258,49 @@
               "RelativeToolTip": "DataLayer\\Interface\\ISubscriptionRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T10:48:32.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T10:48:32.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\appsettings.json",
               "RelativeDocumentMoniker": "InvoiceGenAppAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\appsettings.json",
               "RelativeToolTip": "InvoiceGenAppAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-06T13:38:35.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Program.cs",
+              "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Program.cs",
+              "RelativeToolTip": "InvoiceGenAppAPI\\Program.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAADwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-08-30T14:11:54.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubscriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Controllers\\SubscriptionController.cs",
+              "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Controllers\\SubscriptionController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Controllers\\SubscriptionController.cs",
+              "RelativeToolTip": "InvoiceGenAppAPI\\Controllers\\SubscriptionController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:01:58.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SubscriptionRepository.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Repository\\SubscriptionRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\SubscriptionRepository.cs",
@@ -299,12 +308,11 @@
               "RelativeToolTip": "DataLayer\\Repository\\SubscriptionRepository.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T10:42:07.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T10:42:07.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Subscription.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\Models\\Subscription.cs",
               "RelativeDocumentMoniker": "Models\\Subscription.cs",
@@ -312,12 +320,11 @@
               "RelativeToolTip": "Models\\Subscription.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAABAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T10:50:03.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T10:50:03.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Repository\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\UnitOfWork.cs",
@@ -325,12 +332,11 @@
               "RelativeToolTip": "DataLayer\\Repository\\UnitOfWork.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAABEAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T09:50:26.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T09:50:26.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Repository\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\IUnitOfWork.cs",
@@ -338,12 +344,11 @@
               "RelativeToolTip": "DataLayer\\Repository\\IUnitOfWork.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T09:51:40.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T09:51:40.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -351,20 +356,7 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAA+wBAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-10-26T16:35:40.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Program.cs",
-              "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Program.cs",
-              "RelativeToolTip": "InvoiceGenAppAPI\\Program.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAAAIsAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-08-30T14:11:54.916Z"
+              "WhenOpened": "2023-10-26T16:35:40.683Z"
             },
             {
               "$type": "Document",
@@ -380,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Dockerfile",
               "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Dockerfile",
@@ -388,12 +380,11 @@
               "RelativeToolTip": "InvoiceGenAppAPI\\Dockerfile",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-06T14:38:53.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:38:53.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Database\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataLayer\\Database\\ApplicationDbContext.cs",
@@ -401,8 +392,7 @@
               "RelativeToolTip": "DataLayer\\Database\\ApplicationDbContext.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAAADoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T19:41:38.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T19:41:38.154Z"
             },
             {
               "$type": "Document",
@@ -430,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "Models\\Invoice.cs",
@@ -442,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "InvoiceGenAppAPI\\Controllers\\AuthController.cs",
@@ -454,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\DataLayer\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\UserRepository.cs",

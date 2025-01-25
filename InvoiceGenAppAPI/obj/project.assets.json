@@ -7384,7 +7384,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net6.0": {
@@ -7444,21 +7445,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Npgsql.EntityFrameworkCore.PostgreSQL.Design 1.1.0 depends on Microsoft.EntityFrameworkCore (>= 1.1.0) but Microsoft.EntityFrameworkCore 1.1.0 was not found. An approximate best match of Microsoft.EntityFrameworkCore 3.1.18 was resolved.",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
     {
       "code": "NU1902",
       "level": "Warning",
