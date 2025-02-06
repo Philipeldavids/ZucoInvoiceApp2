@@ -256,7 +256,7 @@
               "RelativeDocumentMoniker": "InvoiceGenAppAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ZucoInvoiceApp\\InvoiceGenAppAPI\\appsettings.json",
               "RelativeToolTip": "InvoiceGenAppAPI\\appsettings.json",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-06T13:38:35.22Z",
               "EditorCaption": ""
@@ -440,8 +440,7 @@
               "RelativeToolTip": "InvoiceGenAppAPI\\Controllers\\AuthController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAABwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T11:30:18.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T11:30:18.8Z"
             },
             {
               "$type": "Document",
@@ -597,8 +596,7 @@
               "RelativeToolTip": "InvoiceGenAppAPI\\Controllers\\AccountController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAYwB8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:57:51.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T08:57:51.545Z"
             },
             {
               "$type": "Document",

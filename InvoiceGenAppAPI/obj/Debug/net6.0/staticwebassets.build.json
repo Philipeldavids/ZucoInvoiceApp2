@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "szlVp2WfHrY/vl2lngHM3zpE+p0gH9Ttw33I/c4vloQ=",
+  "Hash": "BEt6UeN7lTzXcu1a2LQYRT+2TDmxmncUfL6G0OxF9j8=",
   "Source": "ZucoInvoiceApp",
   "BasePath": "_content/ZucoInvoiceApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

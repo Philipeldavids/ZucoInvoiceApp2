@@ -944,7 +944,10 @@
           "System.IdentityModel.Tokens.Jwt": "6.31.0"
         },
         "runtime": {
-          "DataLayer.dll": {}
+          "DataLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Models/1.0.0": {
@@ -954,7 +957,10 @@
           "System.IdentityModel.Tokens.Jwt": "6.31.0"
         },
         "runtime": {
-          "Models.dll": {}
+          "Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
